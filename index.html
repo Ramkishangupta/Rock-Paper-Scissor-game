@@ -1,0 +1,86 @@
+<!-- Basic Rules
+-----------------------------
+Players: Typically two players.
+
+Hand Signs: Players simultaneously form one of three shapes with an outstretched hand:
+
+Rock: A fist.
+Paper: An open hand.
+Scissors: A fist with the index and middle fingers extended, forming a V.
+Outcome: The outcome of the game is determined by three simple rules:
+
+Rock crushes Scissors (Rock wins).
+Scissors cuts Paper (Scissors wins).
+Paper covers Rock (Paper wins).
+Ties: If both players choose the same shape, the game is a tie and is usually played again to determine the winner.
+
+How to Play
+-----------------------------
+Start the Game: Players usually say "Rock, Paper, Scissors, shoot!" while moving their fists up and down in sync.
+Reveal: On "shoot," both players reveal their chosen hand signs.
+Determine the Winner: Use the basic rules to determine the winner of that round.
+Repeat: Often, the game is played in a best-of-three format or until one player wins a predetermined number of rounds.
+Variations
+Extended Versions: Some variations include additional hand signs like Lizard and Spock, popularized by the TV show "The Big Bang Theory":
+
+Rock crushes Lizard.
+Lizard poisons Spock.
+Spock smashes Scissors.
+Scissors decapitates Lizard.
+Lizard eats Paper.
+Paper disproves Spock.
+Spock vaporizes Rock.
+Team Play: The game can also be played in teams, where each team member competes against the opposing team member.
+
+Complex Versions: Some cultures have their own versions with different hand signs and rules, such as Japanese "Janken."
+
+Strategies
+-----------------------------
+Psychological Play: Trying to predict the opponent’s next move based on their previous moves or body language.
+Statistical Strategy: Utilizing common statistical patterns, such as people rarely playing the same move three times in a row.
+Randomization: Using randomness to ensure unpredictability, making it difficult for the opponent to anticipate your next move.
+Applications
+Decision Making: Often used as a quick, impartial decision-making tool.
+Competitive Play: There are actual tournaments and competitions based on Rock-Paper-Scissors.
+Educational Tool: Helps in teaching probability, psychology, and game theory concepts.
+______________________________________________________________________________________________ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="rock paper.png">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
